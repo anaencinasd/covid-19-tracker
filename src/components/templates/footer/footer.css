@@ -1,0 +1,8 @@
+.footercontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly; 
+    background-color: #1b2a4e;
+    width: 100%;
+    margin: 2rem;
+}
