@@ -1,4 +1,4 @@
-
+import RouterItem from "./configuration/Router"
 import './App.css'
 
 function App() {
@@ -6,8 +6,9 @@ function App() {
 
   return (
     <>
+      <RouterItem />    
       
-    </>
+      </>
   )
 }
 
