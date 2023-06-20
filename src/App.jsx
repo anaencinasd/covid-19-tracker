@@ -1,5 +1,6 @@
-import RouterItem from "./configuration/Router"
-import './App.css'
+import RouterItem from "./configuration/Router";
+import './App.css';
+
 
 function App() {
   
