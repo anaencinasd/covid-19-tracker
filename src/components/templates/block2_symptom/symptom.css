@@ -1,0 +1,14 @@
+.img_card{
+    width: 30%;
+}
+
+.card-div {
+    display:flex;
+    flex-direction: column;
+}
+
+.cards-container {
+    display: flex;
+    flex-flow: row nowrap;
+   justi: space;
+}
