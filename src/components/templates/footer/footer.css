@@ -1,12 +1,48 @@
 .footercontainer{
     display: flex;
-    flex-direction: row;
-    justify-content:space-evenly; 
+    flex-direction: column;
     background-color: #1b2a4e;
-    width: 100%;
-    margin: 2rem;
+   
 }
 
-.footerColumn{
-    color: #8686ab
+.columnsContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly; 
+    
+    width: 100%;
+    border-bottom: 1px solid #8686ab;
+    padding: 2rem;
+    flex-wrap: wrap;
 }
+
+.footerColumns{
+    color: #8686ab;
+    font-family: "lanenar";
+    display: inline-block;    
+}
+
+.footerColumns ul{
+    list-style: none;
+}
+
+.Copyright{
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    color: #8686ab;
+    justify-content: space-between;
+
+}
+
+.footerBlock{
+    color: #8686ab;
+    width: 15%;
+    line-height: 1.5rem;
+}
+
+.iconsContainer{
+    display: flex;
+    flex-direction: row;
+}
+
