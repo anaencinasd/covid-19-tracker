@@ -1,7 +1,11 @@
 import FooterColumn from "../../atoms/footer_column/Footer_column"
 import "./footer.css"
 import logo from "../../../assets/images/logo-white.png"
-import { MdFacebook } from "react-icons/md";
+import FacebookRoundedIcon from '@mui/icons-material/FacebookRounded';
+import TwitterIcon from '@mui/icons-material/Twitter';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import YouTubeIcon from '@mui/icons-material/YouTube';
+
 
 
 
@@ -13,7 +17,11 @@ export default function Footer() {
           <img src={logo} alt="logo" />
           <p>These droplets can land on objects and surfaces around the person such as tables, doorknobs and handrails.</p>
           <div className="iconsContainer">
-            <MdFacebook/>
+            <FacebookRoundedIcon />
+            <TwitterIcon />
+            <LinkedInIcon />
+            <YouTubeIcon />
+           
 
           </div>
         </div>
@@ -41,7 +49,7 @@ export default function Footer() {
         </div>
         <div className="Copyright">
           <p>Copyright 2023. All Rigths Reserved</p>
-          <p>Design by <h5>NOMBRE DEL GRUPO</h5></p>
+          <p>Design by <h5 className="titleFooter">MARS TEAM</h5></p>
         </div>
         
     </div>

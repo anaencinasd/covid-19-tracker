@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 export default function FooterColumn(props) {
   return (
     <div className="footerColumns">
-      <h5>{props.title}</h5>
+      <h5 className="titleFooter">{props.title}</h5>
       <ul>{props.children}</ul>
     </div>
   );

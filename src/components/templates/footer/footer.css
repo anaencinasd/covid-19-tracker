@@ -2,6 +2,10 @@
     display: flex;
     flex-direction: column;
     background-color: #1b2a4e;
+    font-family: "lanenar", sans-serif;
+    font-weight: 400;
+    line-height: 1.5rem;
+    color: #8686ab;
    
 }
 
@@ -16,12 +20,6 @@
     flex-wrap: wrap;
 }
 
-.footerColumns{
-    color: #8686ab;
-    font-family: "lanenar";
-    display: inline-block;    
-}
-
 .footerColumns ul{
     list-style: none;
 }
@@ -30,13 +28,12 @@
     display: flex;
     flex-direction: row;
     padding: 1rem;
-    color: #8686ab;
+    
     justify-content: space-between;
 
 }
 
 .footerBlock{
-    color: #8686ab;
     width: 15%;
     line-height: 1.5rem;
 }
@@ -44,5 +41,9 @@
 .iconsContainer{
     display: flex;
     flex-direction: row;
+}
+
+.titleFooter{
+    color: aliceblue;
 }
 

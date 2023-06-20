@@ -4,7 +4,7 @@ import Navbar from "../components/organisms/Navbar";
 export default function LandingPage() {
   return (
     <div>
-        <Navbar/>
+        {/* <Navbar/> */}
         <Footer />
     </div>
   )
