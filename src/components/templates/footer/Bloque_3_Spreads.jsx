@@ -2,8 +2,11 @@ import CardAtom from '../atoms/spreads/CardAtom';
 import TittleBlock from '../atoms/tittleBlock/TittleBlock';
 import imgFacemask from "../../../assets/images/p-1.jpg"
 import imgYourHangs from "../../../assets/images/p-2.jpg"
-    return (
-        <div>
+import React from 'react'
+
+function Bloque_3_Spreads() {
+return (
+    <div>
             <TittleBlock>
 
                     <div className="title-spreads"  text_block="Spreads" content_block="Disease spreads from person to person">
@@ -18,6 +21,8 @@ import imgYourHangs from "../../../assets/images/p-2.jpg"
         </div>
 
         )
-    }
+}
+
+
 
 export default Spreads
