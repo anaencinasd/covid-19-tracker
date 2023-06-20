@@ -5,10 +5,11 @@ import Symptom from "../components/templates/block2_symptom/Symptom";
 export default function LandingPage() {
   return (
     <div>
-  
-        <Navbar/>
+      <Symptom/>
+      <Symptom/>
+        {/*<Navbar/>
 
-        <Footer />
+        <Footer />*/}
     </div>
   )
 }
