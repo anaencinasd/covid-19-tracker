@@ -1,1 +1,20 @@
-
+@font-face {
+    font-family: "fontawesone-webfont";
+    src: url("/src/assets/fonts/fontawesome-webfont.ttf");
+}
+@font-face {
+    font-family: "lanenar";
+    src: url("/src/assets/fonts/lanenar_Lane.ttf");
+}
+@font-face {
+    font-family: "themify" ;
+    src: url("/src/assets/fonts/themify.ttf");
+}
+@font-face {
+    font-family: "glyphicons" ;
+    src: url("/src/assets/fonts/glyphicons-halflings-regular.ttf");
+}
+*{
+    margin: 0;
+    padding: 0;
+}
