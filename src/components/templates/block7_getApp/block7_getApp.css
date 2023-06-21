@@ -5,15 +5,19 @@
     display: flex;
     margin-top: 5%;
     margin-bottom: 5%;
-    height: 600px;
+    height: fit-content;
     gap: 8%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:  center;
 }  
 .block7textContainer{
     width: 100%;
     max-width: 60%;
     padding-left: 5%;
     padding-top: 5%;
-    color: white
+    color: white;
+    padding-bottom: 15%;
 }
 .block7title{
     font-weight: 700;
@@ -34,7 +38,7 @@
     justify-content: center;
     background: white;
     width: 100%;
-    max-width: 30%;
+    max-width: 40%;
     height: 70px;
     border-radius: 8px;
     color: black;
