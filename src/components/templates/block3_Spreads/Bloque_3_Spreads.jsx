@@ -1,4 +1,4 @@
-import CardSpreads from "../../atoms/cardAtom/CardAtom";
+import CardSpreads from "../../atoms/cardSpreads/CardSpreads";
 import TittleBlock from "../../atoms/tittleBlock/TittleBlock";
 import spreadimg1 from "../../../assets/images/p-1.jpg";
 import spreadimg2 from "../../../assets/images/p-2.jpg";
@@ -10,19 +10,17 @@ import "./bloque3_spreads.css"
 
 function Spreads() {
     return (
-        <>
-        <div>
+        <div className="SpreadsMainContainer">
             <TittleBlock text_block="Spreads" content_block="Disease spreads from person to person" />
-                <div container="spreads_containerimg">
-                    <CardSpreads img_card={spreadimg1} tittle_content={'Wear Facemask'} text_content= {'Fever is a key symptom, experts say. Dont fixate on a number, but know its really not a fever until your temperature reaches at least 100'}></CardSpreads>
-                    <CardSpreads img_card={spreadimg2} tittle_content={'Wash your hangs often'} text_content= {'Coughing is another key symptom, but its not just any cough, said Schaffner. It Should be a dry cough that you fell in your chest.'} ></CardSpreads>
-                    <CardSpreads img_card={spreadimg3} tittle_content={'Keep social distance'} text_content= {'Shortness of breath can a third -- and very serious -- manifestation of Covid-19, and it can occur on its own, without a cough.'} ></CardSpreads>
-                    <CardSpreads img_card={spreadimg4} tittle_content={'Wear Facemask'} text_content= {'Fever is a key symptom, experts say. Dont fixate on a number, but know its really not a fever until your temperature reaches at least 100'} ></CardSpreads>
-                    <CardSpreads img_card={spreadimg5} tittle_content={'Wash your hangs often'} text_content= {'Coughing is another key symptom, but its not jus any cough, said Schaffner. It should be a dry cough that you feel in your chest.'} ></CardSpreads>
-                    <CardSpreads img_card={spreadimg6} tittle_content={'Keep social distance'} text_content= {'Shortness of beath can be a third -- and very serious -- manifestatios of Covid-19, and it can occur on its own, without a cough.'} ></CardSpreads>
-                </div>
+            <div className="spreads_containerimg">
+                <CardSpreads imgSpread={spreadimg1} tittle_content={'Wear Facemask'} text_content= {'Fever is a key symptom, experts say. Dont fixate on a number, but know its really not a fever until your temperature reaches at least 100'}></CardSpreads>
+                <CardSpreads imgSpread={spreadimg2} tittle_content={'Wash your hangs often'} text_content= {'Coughing is another key symptom, but its not just any cough, said Schaffner. It Should be a dry cough that you fell in your chest.'} ></CardSpreads>
+                <CardSpreads imgSpread={spreadimg3} tittle_content={'Keep social distance'} text_content= {'Shortness of breath can a third -- and very serious -- manifestation of Covid-19, and it can occur on its own, without a cough.'} ></CardSpreads>
+                <CardSpreads imgSpread={spreadimg4} tittle_content={'Wear Facemask'} text_content= {'Fever is a key symptom, experts say. Dont fixate on a number, but know its really not a fever until your temperature reaches at least 100'} ></CardSpreads>
+                <CardSpreads imgSpread={spreadimg5} tittle_content={'Wash your hangs often'} text_content= {'Coughing is another key symptom, but its not jus any cough, said Schaffner. It should be a dry cough that you feel in your chest.'} ></CardSpreads>
+                <CardSpreads imgSpread={spreadimg6} tittle_content={'Keep social distance'} text_content= {'Shortness of beath can be a third -- and very serious -- manifestatios of Covid-19, and it can occur on its own, without a cough.'} ></CardSpreads>
+            </div>
         </div>
-        </>
             
             )
     }
