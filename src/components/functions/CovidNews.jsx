@@ -9,7 +9,7 @@ function CovidNews() {
       try {
         const apiKey = "b6D1ynmSMysyQjx9AO6DVG2SEeJcoFWc";
         const response = await fetch(
-          `https://api.nytimes.com/svc/search/v2/articlesearch.json?q=covid&api-key=${apiKey}`
+          `https://api.nytimes.com/svc/search/v2/articlesearch.json?q=coronavirus&api-key=${apiKey}`
         );
         const news = await response.json();
         setNews(news.response.docs.slice(0,3));
@@ -39,7 +39,7 @@ function CovidNews() {
            
             <article  className="new" key={_id}>
               <img src={imageUrl} alt={main} />
-              <h4>{main}</h4>
+              <h3>{main}</h3>
               <h6>{pub_date}</h6>
               <p>{abstract}</p>
               <a href={web_url}>Continue</a>
