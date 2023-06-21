@@ -11,7 +11,7 @@ export default function LandingPage() {
   
         <Navbar/>
         <Symptom />
-        {<Block6_wash />}
+        <Block6_wash />
         <Footer />
     </div>
   )
