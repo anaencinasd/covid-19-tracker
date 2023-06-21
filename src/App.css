@@ -2,47 +2,69 @@
     font-family: "fontawesone-webfont";
     src: url("/src/assets/fonts/fontawesome-webfont.ttf");
 }
+
 @font-face {
     font-family: "lanenar";
     src: url("/src/assets/fonts/lanenar_Lane.ttf");
 }
+
 @font-face {
-    font-family: "themify" ;
+    font-family: "themify";
     src: url("/src/assets/fonts/themify.ttf");
 }
+
 @font-face {
-    font-family: "glyphicons" ;
+    font-family: "glyphicons";
     src: url("/src/assets/fonts/glyphicons-halflings-regular.ttf");
 }
-*{
+
+* {
     margin: 0;
     padding: 0;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     box-sizing: border-box;
+    
 }
 
-h5{
+h5 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 1rem;
     line-height: 1.5rem;
     font-weight: 700;
-    color: #293F73;
     align-self: center;
+    color: #293f73
 }
 
-h2{
+h2 {
     font-weight: 700;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color:#293F73;
     font-size: 4rem;
+    color: #293f73
 }
 
-@media screen and (max-width: 500px){
-    h2{
+p{
+    font-size: 1rem;
+    color: #293f73
+}
+
+h4{
+    font-size: 1.2rem;
+    color: #293f73;
+}
+h6{
+    font-size: 0.75rem;
+    color: #8686ab;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+@media screen and (max-width: 500px) {
+    h2 {
         font-size: 2rem;
     }
-    h5{
+
+    h5 {
         font-size: 0.75rem;
     }
-    
+
 }

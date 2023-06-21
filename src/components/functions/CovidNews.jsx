@@ -1,20 +1,18 @@
 import { useState, useEffect } from "react";
+import "../templates/block8_news/news.css"
 
 function CovidNews() {
   const [news, setNews] = useState([]);
-  const [term, setTerm] = useState("covid");
-  const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
     const fetchNews = async () => {
       try {
         const apiKey = "b6D1ynmSMysyQjx9AO6DVG2SEeJcoFWc";
         const response = await fetch(
-          `https://api.nytimes.com/svc/search/v2/articlesearch.json?q=${term}&api-key=${apiKey}`
+          `https://api.nytimes.com/svc/search/v2/articlesearch.json?q=covid&api-key=${apiKey}`
         );
         const news = await response.json();
-        console.log(news.response.docs);
-        setNews(news.response.docs);
+        setNews(news.response.docs.slice(0,3));
       } catch (error) {
         console.error(error);
       }
@@ -23,28 +21,35 @@ function CovidNews() {
     fetchNews();
   }, []);
 
-  return (<>
-  <section>
-    {news.map((article) =>{
-        const{ headline: {main}, abstract, web_url, pub_date, _id, {images[0]["media-metadata"][0]["url"]} } = article
-        
+  return (
+    <>
+     
+        {news.map((article) => {
+          const {
+            headline: { main },
+            abstract,
+            web_url,
+            pub_date,
+            _id,
+            multimedia,
+          } = article;
 
-        return(
-            <article key={_id}>
-                <img/>
-                <h4>{main}</h4>
-                <h6>{pub_date}</h6>
-                <p>{abstract}</p>
-                <a href={web_url}>Continue</a>
-
-            </article> 
-        )
-
-
-
-    })}
-  </section>
-  </>);
+          let imageUrl = "https://static01.nyt.com/" + multimedia[0].url;
+          return (
+           
+            <article  className="new" key={_id}>
+              <img src={imageUrl} alt={main} />
+              <h4>{main}</h4>
+              <h6>{pub_date}</h6>
+              <p>{abstract}</p>
+              <a href={web_url}>Continue</a>
+            </article>
+            
+          );
+        })}
+      
+    </>
+  );
 }
 
 export default CovidNews;
