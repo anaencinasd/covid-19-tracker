@@ -49,7 +49,7 @@ export default function Footer() {
         </div>
         <div className="Copyright">
           <p>Copyright 2023. All Rights Reserved</p>
-          <p>Design by <h5 className="titleFooter">MARS TEAM</h5></p>
+          <p>Design by </p><h5 className="titleFooter">MARS TEAM</h5>
         </div>
         
     </div>
