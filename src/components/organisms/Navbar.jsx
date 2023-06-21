@@ -1,5 +1,5 @@
 import "./navbar.css"
-import down_arrow from "../../assets/images/down_arrow.png"
+import down_arrow from "../../assets/images/arrow.svg"
 import logo from "../../assets/images/logo-white.png"
 
 function Navbar(){
