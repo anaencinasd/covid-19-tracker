@@ -7,11 +7,10 @@
 
 }
 .text-block {
-
     color:#293F73;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-.content-block {
+} 
+.style-title {
     text-align: center;
     font-weight: 700;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;

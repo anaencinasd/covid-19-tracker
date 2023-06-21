@@ -1,0 +1,47 @@
+.getAppContainer{
+    background-image: linear-gradient(45deg, rgba(10, 14, 228, 0.801), rgb(0, 195, 255));
+    width: 90%;
+    margin: auto;
+    display: flex;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    height: 600px;
+    gap: 8%;
+}  
+.block7textContainer{
+    width: 100%;
+    max-width: 60%;
+    padding-left: 5%;
+    padding-top: 5%;
+    color: white
+}
+.block7title{
+    font-weight: 700;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+.block7p{
+    padding-top: 15px;
+    width: 100%;
+    max-width: 50%;
+    font-size: 20px;
+    line-height: 1.5;
+}
+.block7infoContainer{
+    display: flex;
+    align-items: center;
+    margin-top: 3%;
+    justify-content: center;
+    background: white;
+    width: 100%;
+    max-width: 30%;
+    height: 70px;
+    border-radius: 8px;
+    color: black;
+    ;
+}
+.iphone{
+    width: 100%;
+    height: auto;
+    margin-top: -25%;
+}

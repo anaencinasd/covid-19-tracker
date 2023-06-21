@@ -4,6 +4,7 @@ import Prevent from "../components/templates/block3_prevent/prevent";
 import Block6_wash from "../components/templates/Block6_wash/Block6_wash";
 import Bloque1 from "../components/templates/bloque1/Bloque1"
 import Bloque_3_Spreads from "../components/templates/block3_Spreads/Bloque_3_Spreads"
+import Block7_getApp from "../components/templates/block7_getApp/Block7_getApp";
 
 
 
@@ -15,6 +16,7 @@ export default function LandingPage() {
       <Prevent />
       <Bloque_3_Spreads />
       <Block6_wash />
+      <Block7_getApp/>
       <Footer /> 
     </div>
   )
