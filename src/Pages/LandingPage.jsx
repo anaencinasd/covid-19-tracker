@@ -16,7 +16,6 @@ export default function LandingPage() {
       <Prevent/>
       <Block6_wash/>
       <Footer />
-
     </div>
   )
 }
