@@ -1,0 +1,16 @@
+.cardQuestion {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 125px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: blue;
+    margin: 15px;
+    border-radius: 10px;
+}
+        
+.stylequestion {
+    color: white;
+    font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif';
+}

@@ -1,0 +1,26 @@
+.containerQuestion{
+    width: 100%;
+    height: 700px;
+    background-image: url("../../../assets/images/fondoPreguntas.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    align-items: center;
+}
+.question_style_h5 {
+    color: white;
+}
+.containerQuestion {
+    display: flex;
+    flex-direction: column;
+}
+.styleQuestion {
+    color: white;
+}
+.contaniner_question_cards{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-top: 20px;
+    justify-content: center;
+}
