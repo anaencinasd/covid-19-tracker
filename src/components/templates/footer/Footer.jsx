@@ -48,7 +48,7 @@ export default function Footer() {
         </FooterColumn>
         </div>
         <div className="Copyright">
-          <p className="footerP">Copyright 2023. All Rights Reserved</p>
+          <p className="footerP">Creative Commons License 2023. Omnia sunt communia</p>
           <div><p className="footerP">Design by </p><h5 className="titleFooter">MARS TEAM</h5></div>
         </div>
         

@@ -39,7 +39,11 @@ function CovidNews() {
            
             <article  className="new" key={_id}>
               <img src={imageUrl} alt={main} />
-              <h3>{main}</h3>
+              <h3>
+                <a href="{web_url}">
+                {main}
+                </a>
+                </h3>
               <h6>{pub_date}</h6>
               <p>{abstract}</p>
               <a href={web_url}>Continue</a>
