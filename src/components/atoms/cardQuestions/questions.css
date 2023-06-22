@@ -5,7 +5,9 @@
     height: 125px;
     padding-left: 50px;
     padding-right: 50px;
-    background-color: blue;
+    padding-left: 20px;
+    padding-top: 10px;
+    background-color: rgb(51, 51, 215);
     margin: 15px;
     border-radius: 10px;
 }
