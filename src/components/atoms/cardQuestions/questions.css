@@ -1,11 +1,10 @@
 .cardQuestion {
     display: flex;
     flex-direction: column;
-    width: 500px;
-    height: 125px;
-    padding-left: 50px;
-    padding-right: 50px;
-    background-color: blue;
+    width: 45%;
+    height: 100%;
+    padding: 1%;
+    background-color: rgb(8, 44, 134);
     margin: 15px;
     border-radius: 10px;
 }
