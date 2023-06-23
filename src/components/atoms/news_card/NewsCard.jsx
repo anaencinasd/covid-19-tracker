@@ -1,4 +1,4 @@
-import CovidNews from "../../functions/CovidNews";
+import CovidNews from "../../../service/CovidNews";
 import "../../templates/block8_news/news.css"
 
 
