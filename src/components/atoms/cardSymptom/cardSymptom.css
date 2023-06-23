@@ -1,6 +1,6 @@
-
 .symptom-card-container {
-    width:100%;
+    width: 100%;
+    max-width:32%;
     height: 20%;
     background-color: white;
     border-radius: 5px;
@@ -15,8 +15,6 @@
 .symptom-img-card{
     width: 25%;
     align-self: flex-start;
-
-
 }
 .symtom-tittle-card{
     padding-top:5%;
@@ -26,3 +24,4 @@
 .symptom-text-card {
     font-size: 1vw;
 }
+

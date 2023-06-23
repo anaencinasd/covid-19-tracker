@@ -1,6 +1,6 @@
 .block1{
     width: 100%;
-    height: 700px;
+    height: 100%;
     background-image: url("../../../assets/images/3626307.jpg");
     background-size: cover;
     background-position: center;
@@ -39,6 +39,7 @@
 }
 .block1infoContainer{
     margin-top: 2%;
+    margin-bottom: 2%;
     background: white;
     width: 100%;
     max-width: 40%;
