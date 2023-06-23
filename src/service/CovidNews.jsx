@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import "../templates/block8_news/news.css"
+import "../components/templates/block8_news/news.css"
 
 function CovidNews() {
   const [news, setNews] = useState([]);
