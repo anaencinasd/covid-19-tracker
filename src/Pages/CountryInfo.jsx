@@ -1,9 +1,9 @@
-import GlobalTracker from "../components/molecules/Globaltracker";
+import Tracker from "../components/organisms/Tracker"
 
 export default function CountryInfo() {
   return (
-    <div>
-      <GlobalTracker />
-    </div>
+    <>
+      <Tracker />
+    </>
   )
 }
