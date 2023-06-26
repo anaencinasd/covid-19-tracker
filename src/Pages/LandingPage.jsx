@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-import Footer from "../components/templates/footer/Footer";
+
 import Navbar from "../components/organisms/Navbar";
 import Symptom from "../components/templates/block2_symptom/Symptom";
 import Prevent from "../components/templates/block3_prevent/prevent";
