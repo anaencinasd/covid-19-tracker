@@ -8,14 +8,12 @@
     color: #8686ab;
     width: 100%;
     flex-wrap: wrap;
-   
 }
 
 .columnsContainer{
     display: flex;
     flex-direction: row;
     justify-content:space-evenly; 
-    ;
     width: 100%;
     border-bottom: 1px solid #8686ab;
     padding: 2rem;
@@ -28,14 +26,14 @@
 }
 
 .footerP{
-    color: #8686ab
+    color: #8686ab;
+    font-size: 1rem;
 }
 
 .Copyright{
     display: flex;
     flex-direction: row;
     padding: 1rem;
-    
     justify-content: space-between;
 
 }
@@ -43,13 +41,38 @@
 .footerBlock{
     width: 15%;
     line-height: 1.5rem;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .iconsContainer{
     display: flex;
     flex-direction: row;
+
+    gap: 5%
 }
 
 .titleFooter{
     color: aliceblue;
+}
+@media screen and (max-width: 500px){
+    .columnsContainer{
+        flex-direction: column;
+        justify-content:center; 
+        width: 100%;
+        border-bottom: 1px solid #8686ab;
+        padding: 2rem;
+        flex-wrap: wrap;
+    }
+    .footerP{
+        width: 100%;
+        font-size: 0.75rem;
+    }
+    .footerBLock {
+        width: 100%;
+        align-self: center;
+
+    }
+    
 }
