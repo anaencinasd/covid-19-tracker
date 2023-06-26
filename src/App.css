@@ -36,7 +36,8 @@ h5 {
     line-height: 1.5rem;
     font-weight: 700;
     align-self: center;
-    color: #293f73
+    color: #293f73;
+    
 }
 
 h2 {
@@ -59,7 +60,7 @@ h3{
 
 h4{
     font-size: 1.2rem;
-    color: #293f73;
+    
 }
 h6{
     font-size: 0.75rem;

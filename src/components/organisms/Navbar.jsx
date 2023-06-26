@@ -18,7 +18,7 @@ function Navbar(){
                 <a href="#">Pages <img src={down_arrow} alt="down arrow" id="down"/></a>
                 <a href="#">About</a>
                 <a href="#">Help</a>
-                <a href="https://factoriaf5.org/" id="tracker">Tracker</a>
+                <a href="/countryInfo" id="tracker">Tracker</a>
                 <label htmlFor="check" className="menu-hide">
                     &#215;
                 </label>

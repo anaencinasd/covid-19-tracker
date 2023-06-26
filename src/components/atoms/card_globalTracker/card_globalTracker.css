@@ -1,0 +1,40 @@
+.cardContainer {
+    padding: 2%;
+    margin: 1.5%;
+    border-radius: 10px;
+    width: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+  }
+  
+  .cardContainer-totalcase {
+    background-color: #fff2f2;
+    color: #ff0000 !important;
+  }
+  
+  .cardContainer-active {
+    background-color: #fff9f1;
+    color: #ff6a15 !important;
+  }
+  
+  .cardContainer-recovered {
+    background-color: #edffec;
+    color: #82c519 !important;
+  }
+  
+  .cardContainer-deaths {
+    background-color: #eefbff;
+    color: #4f39ae !important;
+  }
+  
+  .updateContainer{
+    background-color: white;
+    color: #b1aaa3;
+    height: max-content;
+    width: max-content;
+    font-size: 0.75rem;
+    padding: 2%;
+    border-radius: 10px;
+  }
