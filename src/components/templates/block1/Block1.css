@@ -12,6 +12,8 @@
     padding-top: 90px;
     gap: 5%;
     height: auto;
+    padding-left: 5%;
+    padding-right: 5%;
 
 }
 .block1textContainer{
@@ -26,7 +28,7 @@
 }
 .block1title{
     height: auto;
-    font-size: 75px;
+    font-size: 5rem;
     font-weight: 700;
     padding-bottom: 5%;
     line-height: 1;
@@ -36,6 +38,7 @@
     font-size: 20px;
     line-height: 1.5;
     font-weight: 400;
+    color: aliceblue;
 }
 .block1infoContainer{
     margin-top: 2%;
@@ -86,12 +89,16 @@
 
     .block1textContainer {
         width: 100%;
-        padding-left: 5%;
+        max-width: 100%;
+   
     }
 
     .block1imageContainer {
-        width: 100%;
+        width: 50%;
         margin-top: 30px;
         padding-left: 5%;
+    }
+    .block1title{
+        font-size: 2.5rem;
     }
 }

@@ -1,15 +1,13 @@
-.symptom-card-container {
+.symptom-card {
     width: 100%;
-    max-width:32%;
-    height: 20%;
     background-color: white;
     border-radius: 5px;
-    box-shadow: 20px 20px 50px 15px #D8DDEF;
+    box-shadow: 10px 10px 25px 7px #D8DDEF;
     display:flex;
     flex-direction: column;
     justify-content: space-around;
     align-items:flex-start;
-    padding:2% 2%;
+    padding:4% 4%;
 }
 
 .symptom-img-card{
@@ -19,9 +17,6 @@
 .symtom-tittle-card{
     padding-top:5%;
     padding-bottom: 5%;
-    font-size: 1.25vw;
-}
-.symptom-text-card {
-    font-size: 1vw;
+
 }
 

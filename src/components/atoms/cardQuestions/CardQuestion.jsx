@@ -1,4 +1,4 @@
-import "./questions.css";
+import "./cardQuestions.css";
 
 function CardQuestion(props) {
 return (

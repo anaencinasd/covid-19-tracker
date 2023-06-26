@@ -31,7 +31,6 @@ a{
 }
 
 h5 {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 1rem;
     line-height: 1.5rem;
     font-weight: 700;
@@ -47,8 +46,9 @@ h2 {
     color: #293f73
 }
 
-p{
-    font-size: 1.5rem;
+p{  
+    font-size: 1.25rem;
+    font-weight: 200;
     color: #293f73
 }
 h3{
@@ -84,6 +84,9 @@ h6{
 
     .new{
         width: 75%;
+    }
+    p{
+        font-size: 1rem
     }
 
 }

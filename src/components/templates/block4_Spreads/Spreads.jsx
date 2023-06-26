@@ -6,7 +6,7 @@ import spreadimg3 from "../../../assets/images/p-3.jpg";
 import spreadimg4 from "../../../assets/images/p-4.jpg";
 import spreadimg5 from "../../../assets/images/p-5.jpg";
 import spreadimg6 from "../../../assets/images/p-6.jpg";
-import "./bloque3_spreads.css"
+import "./spreads.css"
 
 function Spreads() {
     return (
