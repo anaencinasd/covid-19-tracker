@@ -1,4 +1,4 @@
-import "./bloque1.css"
+import "./block1.css"
 import Navbar from "../../organisms/Navbar"
 import lady from "../../../assets/images/banner-right-image1.png"
 import arrow from "../../../assets/images/right-arrow.svg"
@@ -6,7 +6,7 @@ import headphone from "../../../assets/images/headphone.svg"
 import cart from "../../../assets/images/cart.svg"
 
 
-function Bloque1() {
+function Block1() {
 return (
     <div className='block1'>
         <Navbar/>
@@ -32,4 +32,4 @@ return (
 )
 }
 
-export default Bloque1
+export default Block1

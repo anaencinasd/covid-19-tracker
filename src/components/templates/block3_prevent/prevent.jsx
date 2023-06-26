@@ -8,7 +8,7 @@ import img_wash from "../../../assets/images/icon4_bg.png"
 import img_respiratory from "../../../assets/images/breathing_bg.png"
 import img_wear from "../../../assets/images/banner-right_bg.png"
 
-function Prevent() {
+export default function Prevent() {
 
     return(
         <>
@@ -28,4 +28,3 @@ function Prevent() {
         </>
     )
 }
-export default Prevent
