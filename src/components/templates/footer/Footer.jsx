@@ -15,7 +15,7 @@ export default function Footer() {
       <div className="columnsContainer">
         <div className="footerBlock">
           <img src={logo} alt="logo" />
-          <p>These droplets can land on objects and surfaces around the person such as tables, doorknobs and handrails.</p>
+          <p className="footerP">These droplets can land on objects and surfaces around the person such as tables, doorknobs and handrails.</p>
           <div className="iconsContainer">
             <FacebookRoundedIcon />
             <TwitterIcon />
@@ -48,8 +48,8 @@ export default function Footer() {
         </FooterColumn>
         </div>
         <div className="Copyright">
-          <p>Copyright 2023. All Rights Reserved</p>
-          <p>Design by <h5 className="titleFooter">MARS TEAM</h5></p>
+          <p className="footerP">Creative Commons License 2023. Omnia sunt communia</p>
+          <div><p className="footerP">Design by </p><h5 className="titleFooter">MARS TEAM</h5></div>
         </div>
         
     </div>

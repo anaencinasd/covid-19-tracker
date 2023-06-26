@@ -15,7 +15,7 @@
     display: flex;
     flex-direction: row;
     justify-content:space-evenly; 
-    
+    ;
     width: 100%;
     border-bottom: 1px solid #8686ab;
     padding: 2rem;
@@ -24,6 +24,11 @@
 
 .footerColumns ul{
     list-style: none;
+    
+}
+
+.footerP{
+    color: #8686ab
 }
 
 .Copyright{

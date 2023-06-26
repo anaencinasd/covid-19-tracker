@@ -1,7 +1,7 @@
 .header{
     position: fixed;
     width: 100%;
-    background: transparent;
+    background: rgba(5, 78, 128, 0.301);
     margin-left: auto;
     margin-right: auto;
     display: flex;
@@ -43,7 +43,7 @@
 .menu a:hover,
 .menu-view:hover,
 .menu-hide:hover{
-    color: #f1e31a;
+    color: black;
 }
 #down{
     width: 8px;
@@ -63,7 +63,6 @@
 }
 
 @media(max-width: 450px){
-/*Header*/
 .menu-view,
 .menu-hide{
     display: block;

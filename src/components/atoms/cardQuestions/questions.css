@@ -1,0 +1,25 @@
+.cardQuestion {
+    display: flex;
+    flex-direction: column;
+<<<<<<< HEAD
+    width: 45%;
+    height: 100%;
+    padding: 1%;
+    background-color: rgb(8, 44, 134);
+=======
+    width: 500px;
+    height: 125px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-left: 20px;
+    padding-top: 10px;
+    background-color: rgb(51, 51, 215);
+>>>>>>> d8f84b5c8baa2bf817adf5264c72636c02722e39
+    margin: 15px;
+    border-radius: 10px;
+}
+        
+.stylequestion {
+    color: white;
+    font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif';
+}
