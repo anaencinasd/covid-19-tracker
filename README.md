@@ -26,7 +26,8 @@ An example of how our landing page looks like can be found in the following imag
 
 # *Technologies used*  <img width = 50px, height = 50px src="https://github.com/nati-Bel/Proyecto-3---Music-App/assets/132446932/2b95686d-c3b6-4531-8d2b-949f40e82941">
 
-<img width = 70px, height = 70px src="https://github.com/nati-Bel/Proyecto-3---Music-App/assets/132446932/22852c80-126f-48ba-b936-11fc13f88e89"> <img width = 70px, height = 70px src="https://github.com/nati-Bel/Proyecto-3---Music-App/assets/132446932/e10e887d-8201-47b9-b3a5-6b6d935c46f3"> <img width = 70px, height = 70px src="https://github.com/nati-Bel/Proyecto-3---Music-App/assets/132446932/5a6d57b3-16d4-4ee8-8109-d632269201c3"> <img width = 70px, height = 70px src="https://github.com/nati-Bel/Proyecto-3---Music-App/assets/132446932/040624dc-3b70-45c6-bad1-369515d17750">
+<img width = 70px, height = 70px src="https://github.com/nati-Bel/Proyecto-3---Music-App/assets/132446932/22852c80-126f-48ba-b936-11fc13f88e89"> <img width = 70px, height = 70px src="https://github.com/nati-Bel/Proyecto-3---Music-App/assets/132446932/e10e887d-8201-47b9-b3a5-6b6d935c46f3"> <img width = 70px, height = 70px src="https://github.com/nati-Bel/Proyecto-3---Music-App/assets/132446932/5a6d57b3-16d4-4ee8-8109-d632269201c3"> <img width = 70px, height = 70px src="https://github.com/nati-Bel/Proyecto-3---Music-App/assets/132446932/040624dc-3b70-45c6-bad1-369515d17750"> <img width = 70px, height = 70px src="https://github.com/anaencinasd/covid-19-tracker/assets/132446932/706fcd45-23b0-495d-b430-fa20f7864790">
+
 <br>
 # *Authors of the project* <img width = 50px, height = 50px src="https://github.com/nati-Bel/Proyecto-3---Music-App/assets/132446932/6a12045d-faf6-47a2-8ab1-9b40e99d660c">
 This project exists thanks to all the people who contribute:
