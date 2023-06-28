@@ -1,0 +1,6 @@
+.containerMoleculeCardTracker {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 28rem;
+}
