@@ -50,6 +50,6 @@ You can find detailed instructions on using Create React App and many tips in [i
 This project exists thanks to all the people who contribute:<br>
   - Ana -- https://github.com/anaencinasd<br>
   - Maite -- https://github.com/MaiteNavas<br>
-  - Raissa -- <br>
+  - Raissa -- https://github.com/Ninetthe<br>
   - Sara -- https://github.com/Sara-Poyo-Pastor
 
