@@ -1,12 +1,14 @@
 import Tracker from "../components/organisms/Tracker"
-import CardAtomTotalTrack from "../components/atoms/cardTotal/CardAtomTotalTracker"
-import CardMoleculeTotalTracker from "../components/molecules/cardMoleculeTotalTracker/CardMoleculeTotalTracker";
+import Navbar_tracker from "../components/molecules/navbar_tracker/Navbar_tracker"
+
 
 export default function CountryInfo() {
   return (
     <>
-      <Tracker />
-      <CardMoleculeTotalTracker/>
+      <div className="tracker_container_principal">
+        <Navbar_tracker/>
+        <Tracker/>
+      </div>
     </>
   )
 }
