@@ -26,7 +26,6 @@
     width: 55px;
     position: static;
     margin: 15%;
-   
     animation-name: rueda;
     animation: rueda 5s infinite linear;
     -webkit-transform-origin: 50% 50%;
