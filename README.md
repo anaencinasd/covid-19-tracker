@@ -21,8 +21,25 @@ An example of how our landing page looks like can be found in the following imag
 <br>
 
 # *Functionalities* <img width = 50px, height = 50px src="https://github.com/nati-Bel/Proyecto-3---Music-App/assets/132446932/cd1cfd60-fde6-423f-a2b0-638571ee0b00">
+The disease.sh API is consumed to get the data.<br>
+The page is responsive.<br>
+The page filters by country.<br>
 
 # *How users can use it* <img width = 50px, height = 50px src="https://github.com/nati-Bel/Proyecto-3---Music-App/assets/132446932/267ff4c9-035a-4a54-8f0f-f708271c3538">
+In order to visualize this project properly you need react and axios installed.<br>
+You can run the project with:<br>
+  
+    npm start
+  
+To display it in the browser, open your local host:<br>
+  
+    http://localhost:5173
+
+The page will automatically reload if you make changes to the code.<br>
+You will see the build errors and lint warnings in the console.<br>
+
+# *Learn more about React*  <img width = 50px, height = 50px src="https://github.com/anaencinasd/covid-19-tracker/assets/132446932/ab824237-1db4-47dd-838f-164f652c95f9">
+You can find detailed instructions on using Create React App and many tips in [its documentation](https://create-react-app.dev/).<br>
 
 # *Technologies used*  <img width = 50px, height = 50px src="https://github.com/nati-Bel/Proyecto-3---Music-App/assets/132446932/2b95686d-c3b6-4531-8d2b-949f40e82941">
 
@@ -30,9 +47,9 @@ An example of how our landing page looks like can be found in the following imag
 
 <br>
 # *Authors of the project* <img width = 50px, height = 50px src="https://github.com/nati-Bel/Proyecto-3---Music-App/assets/132446932/6a12045d-faf6-47a2-8ab1-9b40e99d660c">
-This project exists thanks to all the people who contribute:
-  - Ana -- https://github.com/anaencinasd
-  - Maite --
-  - Raissa --
+This project exists thanks to all the people who contribute:<br>
+  - Ana -- https://github.com/anaencinasd<br>
+  - Maite -- https://github.com/MaiteNavas<br>
+  - Raissa -- <br>
   - Sara -- https://github.com/Sara-Poyo-Pastor
 
