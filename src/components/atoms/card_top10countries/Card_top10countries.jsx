@@ -1,4 +1,4 @@
-import DynamicUrl from "../../../service/DynamicURL"
+import DynamicUrl from "../../../service/DynamicUrl"
 import CovidService from "../../../service/CovidService"
 import "./card_top10countries.css"
 import { useEffect, useState } from "react";
@@ -17,6 +17,7 @@ export default function Card_top10countries(props) {
     const topTenCountries = countryData
     .sort((a,b) => b.active - a.active)
     .slice(0,10)
+
 
   return (
     <div className="cardContainerTop">
