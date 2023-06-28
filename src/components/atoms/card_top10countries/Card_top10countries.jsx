@@ -6,7 +6,7 @@ import { useEffect, useState } from "react";
 
 
 
-export default function Card_top10countries(props) {
+export default function Card_top10countries() {
     const [countryData, setCountryData] = useState([]);
 
     useEffect(()=>{
@@ -15,21 +15,23 @@ export default function Card_top10countries(props) {
     }, []);
 
     const topTenCountries = countryData
-    .sort((a,b) => b.active - a.active)
+    .sort((a,b) => b.active -a.active)
     .slice(0,10)
+    console.log(topTenCountries)
 
+    
   return (
     <div className="cardContainerTop">
         <h3>Top 10 countries (by active cases)</h3>
         <ul className="listStyle">
             <li className="cardsStyle">
-            {topTenCountries.map((element, data) => (
-            <div key={data} className="countryContainer">
+            {topTenCountries.map((element) => (
+            <div key={element.country} className="countryContainer">
                 <div>
                     <img src={element.countryInfo.flag} alt={element.country} className="flagStyle" />
                 </div>
                 <div>{element.country}</div>
-                <div>{element.cases}</div>
+                <div>{element.active}</div>
                 
             </div>
         ))}
