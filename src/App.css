@@ -68,6 +68,10 @@ h6{
     padding-top: 2%;
     padding-bottom: 2%;
 }
+.tracker_container_principal{
+    display: flex;
+    flex-direction: row;
+}
 
 @media screen and (max-width: 500px) {
     h2 {
