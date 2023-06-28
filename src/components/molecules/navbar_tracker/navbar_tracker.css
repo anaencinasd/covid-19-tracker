@@ -4,28 +4,27 @@
     position: fixed;
     left: 0;
     top: 0;
-    height: 100%;
-    display: block;
-    box-sizing: border-box;
+    display: flex;
     padding: 0;
+    height: 100vh;
 
 }
 .navbar_content{
     width: 100%;
-    overflow: hidden;
+    height: 100vh;
     outline: none;
     border-right: 1px solid rgba(0, 0, 0, 0.1);
     padding: 0;
-    box-sizing: border-box;
-    display: block;
     justify-content: center;
     margin-right: auto;
     margin-left: auto;
+    margin-top: 1%;
 }
 #logo1{
-    width: 55px;
+    width: 60%;
     position: static;
-    margin: 15%;
+    margin: 10%;
+    margin-left: 20%;
     animation-name: rueda;
     animation: rueda 5s infinite linear;
     -webkit-transform-origin: 50% 50%;
@@ -40,26 +39,11 @@
         transform: rotate(359deg);
     }
 }
-/* @keyframes rueda{
-    0% {
-        -ms-transform: rotate(0deg);
-        -webkit-transform: rotate(0deg); 
-        transform: rotate(0deg);
-        }
-    100% {
-    -ms-transform: rotate(360deg);
-    -webkit-transform: rotate(360deg); 
-    transform: rotate(360deg);
-    }
-} */
-
 #icon_tracker{
     position: relative;
-    width: 100%;
-    max-width: 65%;
-    margin: 15%;
-    padding-right: 15px;
-    padding-left: 15px;
+    width: 35%;
+    margin: auto;
+    margin-top: 10%;
     box-sizing: border-box;
     display: block;
 
