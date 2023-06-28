@@ -6,9 +6,14 @@
 <p align="center"><img src="https://img.shields.io/badge/STATUS-IN PROGRESS-GREEN"></p>
   
 # *Introduction* <img width = 50px, height = 50px src="https://github.com/nati-Bel/Proyecto-3---Music-App/assets/132446932/f963cbe0-2639-4950-81d2-6f41e4f9a7f5">
+The purpose of this project is to develop the front-end of an application that dynamically displays COVID status information by consuming the CovidTracker API.
 
 # *Description of the project* <img width = 50px, height = 50px src="https://github.com/nati-Bel/Proyecto-3---Music-App/assets/132446932/53786f41-5b13-4265-a20d-a478d3aaff27">
+In response to the current demand for technological solutions to address the challenges presented by the Covid-19 pandemic, our development team presents the Covid-19 Dashboard front-end development project.<br>
 
+This project's main objective is to provide an interactive and visually appealing platform that allows users to access and analyze relevant data on the behavior of the virus, including the number of infections, recovered and vaccinated people.<br>
+
+It is a React-based web application that allows users to visualize in an intuitive and understandable way the latest data related to Covid-19. Through this Dashboard, it seeks to provide an effective tool for situation analysis and informed decision making.<br>
 
 An example of how our landing page looks like can be found in the following image:
 <p align="center">
