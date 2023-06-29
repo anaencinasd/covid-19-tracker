@@ -28,7 +28,6 @@ function Navbar_tracker() {
                     <li><a href="#"><img src={flickr} id="icon_tracker"/></a></li>
                 </ul>
             </div>
-       
     </nav>
 )}
 
