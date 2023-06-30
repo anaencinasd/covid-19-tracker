@@ -17,8 +17,6 @@ export default function Card_top10countries() {
     const topTenCountries = countryData
     .sort((a,b) => b.active -a.active)
     .slice(0,10)
-    console.log(topTenCountries)
-
     
   return (
     <div className="cardContainerTop">
