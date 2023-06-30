@@ -7,11 +7,6 @@
     justify-items: center;
 }
 
-.listStyle{
-    list-style-type: none;
-    
-}
-
 .countryContainer{
     display: flex;
     flex-direction: row;
