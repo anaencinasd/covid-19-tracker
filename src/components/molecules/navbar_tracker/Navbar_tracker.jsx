@@ -15,7 +15,7 @@ function Navbar_tracker() {
     <nav className="navigation">
        
             <div className="navbar_content">
-                <ul>
+                <ul className="ul-navbar-tracker">
                     <li className="logo1"><a href="/"><img src={logo} id="logo1"/></a></li>
                     <li><a href="/countryInfo" ><img src={pie} id="icon_tracker"/></a></li>
                     <li><a href="/countryTopTen"><img src={menu} id="icon_tracker"/></a></li>

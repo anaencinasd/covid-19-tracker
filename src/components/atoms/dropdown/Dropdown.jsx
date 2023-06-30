@@ -1,5 +1,5 @@
 import "./dropdown.css"
-import DynamicUrl from "../../../service/DynamicURL"
+import DynamicUrl from "../../../service/DynamicUrl"
 import CovidService from "../../../service/CovidService"
 import {useEffect, useState} from "react"
 
@@ -15,17 +15,16 @@ export default function Dropdown() {
 
         return (
             <div>
-              <select name="countries">
-                {countries.map((country) => (
-                  <option key={country.id} 
-                  value={country.id}
-                  >
-                    {country.country}
-                  </option>
-                ))}
+              
+              <select onChange={handleCountryChange}>
+              <option value="">Select a country</option>
+              {countries.map((country) => (
+                <option key={country.country} value={country.country}>
+                  {country.country}
+                </option>
+              ))}
               </select>
-            
-             
+
             </div>
           );  
       
