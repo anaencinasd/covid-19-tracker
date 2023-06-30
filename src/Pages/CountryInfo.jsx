@@ -11,9 +11,7 @@ export default function CountryInfo() {
         <Navbar_tracker/>
         <Tracker/>
         <DropdownPrueba/>
-
-        
-        
+<CardMoleculeTotalTracker/>        
       </div>
     </>
   )
