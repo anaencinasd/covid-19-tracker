@@ -16,9 +16,9 @@ function Navbar_tracker() {
        
             <div className="navbar_content">
                 <ul>
-                    <li className="logo1"><a href="#"><img src={logo} id="logo1"/></a></li>
-                    <li><a href="#"><img src={pie} id="icon_tracker"/></a></li>
-                    <li><a href="#"><img src={menu} id="icon_tracker"/></a></li>
+                    <li className="logo1"><a href="/"><img src={logo} id="logo1"/></a></li>
+                    <li><a href="/countryInfo" ><img src={pie} id="icon_tracker"/></a></li>
+                    <li><a href="/countryTopTen"><img src={menu} id="icon_tracker"/></a></li>
                     <li><a href="#"><img src={square} id="icon_tracker"/></a></li>
                     <li><a href="#"><img src={folder} id="icon_tracker"/></a></li>
                     <li><a href="#"><img src={cascade} id="icon_tracker"/></a></li>

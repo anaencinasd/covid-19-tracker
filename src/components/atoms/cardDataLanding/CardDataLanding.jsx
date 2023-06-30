@@ -4,20 +4,23 @@ import CovidService from "../../../service/CovidService"
 import { useEffect, useState } from "react";
 
 
-export default function CardDataLanding(props) {
+export default function CardDataLanding() {
   const [countryData, setCountryData] = useState([]);
 
   useEffect(()=>{
-      const url = DynamicUrl("countries")
+      const url = DynamicUrl("countries");
       CovidService(setCountryData, url);
-  }, []);
 
-  
-  
-  const randomCountry =  countryData
+  }, []);
+    const randomCountry =  countryData
     .sort(() => Math.random() > 0.5 ? 1 : -1)
     .slice(0,1)
-    console.log(randomCountry)
+    //console.log(randomCountry)
+    
+  
+
+ 
+
 
 return (
   <div className="cardDataLanding">
