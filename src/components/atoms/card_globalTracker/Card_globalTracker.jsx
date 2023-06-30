@@ -1,7 +1,7 @@
 import "./card_globalTracker.css";
 import { useEffect, useState } from "react";
 import CovidService from "../../../service/CovidService";
-import DynamicUrl from "../../../service/DynamicURL";
+import DynamicUrl from "../../../service/DynamicUrl";
 
 export default function card_globalTracker(props) {
     const [globalData, setGlobalData] = useState(null);

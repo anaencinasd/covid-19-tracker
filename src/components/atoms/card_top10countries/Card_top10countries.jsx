@@ -1,4 +1,4 @@
-import DynamicUrl from "../../../service/DynamicURL"
+import DynamicUrl from "../../../service/DynamicUrl"
 import CovidService from "../../../service/CovidService"
 import "./card_top10countries.css"
 import { useEffect, useState } from "react";

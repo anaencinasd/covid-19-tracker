@@ -1,0 +1,41 @@
+.cardDataLandingContainer{
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-around;
+  gap: 10px;
+  padding: 5%;
+  background-color: white;
+  border-radius: 10px;
+}
+.flagLandingContainer{
+  width: 30%;
+  height: 100%;
+}
+.flagLanding {
+  width: 100%;
+  border-radius: 2px;
+}
+.infoLandingContainer{
+  display: flex;
+  flex-flow: column nowrap;
+  align-items:flex-end;
+}
+.countryNameLanding{
+  color: black;
+  font-size: 0.65rem;
+  font-weight: 400;
+}
+.casesLanding{
+  background-color: #fff2f2;
+  color: #ff0000;
+  
+}
+.activeLanding{
+  background-color: #fff9f1;
+  color: #ff6a15
+}
+.recoveredLanding{
+  background-color: #edffec;
+  color: #82c519
+}
