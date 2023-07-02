@@ -1,15 +1,17 @@
 import "./card_globalTracker.css";
 import { useEffect, useState } from "react";
-import CovidService from "../../../service/CovidService";
+import useFetch from "../../../service/useFetch";
 import DynamicUrl from "../../../service/DynamicUrl";
 
 export default function card_globalTracker(props) {
-    const [globalData, setGlobalData] = useState(null);
-  
-    useEffect(() => {
-      const url = DynamicUrl(props.extension)
-      CovidService(setGlobalData, url);
-    }, [props.extension]);
+  const { data } = useFetch("all", DynamicUrl);
+  const [globalData, setGlobalData] = useState(null);
+
+  useEffect(() => {
+    if (data) {
+      setGlobalData(data);
+    }
+  }, [data]);
   
     const cardStyle = `cardContainer ${props.style}`
     const updateContainerStyle = props.update ? "updateContainer" : "";
