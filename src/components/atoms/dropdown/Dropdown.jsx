@@ -16,8 +16,8 @@ const Dropdown = () => {
   const [selectedCountry, setSelectedCountry] = useState("");
   const [countryData, setCountryData] = useState(null);
   const [lastUpdated, setLastUpdated] = useState(null);
-  const [mapCenter, setMapCenter]=useState({lat:34.80746, lng:-404796})
-  const [mapZoom, setMapZoom]=useState(3);
+  const [mapCenter, setMapCenter]=useState({lat:49.37369736843555, lng:-33.505843239266824})  
+  const [mapZoom, setMapZoom]=useState(2);
 
   useEffect(() => {
     if (selectedCountry) {
@@ -26,15 +26,34 @@ const Dropdown = () => {
       );
       setCountryData(countryInfo);
       setLastUpdated(new Date());
+
+      
+
+     
+
+      
+
+      
     } else {
       setCountryData(null);
       setLastUpdated(null);
     }
   }, [selectedCountry, data]);
 
+  useEffect(() => {
+    if (countryData) {
+      setMapCenter([countryData.countryInfo.lat, countryData.countryInfo.long]);
+      setMapZoom(4);
+    }
+  }, [countryData]);
+
+
   const handleSelectionChange = (event) => {
     setSelectedCountry(event.target.value);
+    
+    
   };
+  
 
   return (
     <div>
