@@ -2,11 +2,11 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    max-width: 28rem;
-    max-height: 30rem;
-    margin-top: 3%; 
-    gap: 3%; 
-
+    width: 35%;
+    margin-left: 2%;
+    margin-top: 5%; 
+    gap: 2%; 
+   
 }
 
 .dropdown-selector{
@@ -30,5 +30,12 @@
 .selector option {
   background-color: #fff;
 
+}
+
+.cardsMapContainer{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  gap: 10%
 }
 
