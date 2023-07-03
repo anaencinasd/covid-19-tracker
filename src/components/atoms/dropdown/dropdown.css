@@ -4,10 +4,9 @@
     flex-wrap: wrap;
     max-width: 28rem;
     max-height: 30rem;
-    margin-left: 2%;
-    margin-top: 20%; 
+    margin-top: 3%; 
     gap: 3%; 
-   
+
 }
 
 .dropdown-selector{
