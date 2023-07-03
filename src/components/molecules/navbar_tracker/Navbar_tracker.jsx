@@ -9,7 +9,9 @@ function Navbar_tracker() {
   return (
     <nav className="navigation">
       <div className="navbar_content">
+        <a href="/">
         <img src={logo} alt="corona logo" id="logo1" />
+        </a>
         <a href="/countryInfo" className="icon_link">
           <Icon icon="fluent:data-pie-20-regular" id="icon_tracker" width="2rem" 
           />

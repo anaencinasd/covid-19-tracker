@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-around;
     width: 12rem;
-    height: 5rem;
+    height: 6rem;
     background-color: white;
     margin-top: 1%;
 }
@@ -12,7 +12,7 @@
     height: 50% !important;
 }
 .paragraphHelp {
-    font-size: 0.7rem !important;
+    font-size: 1rem !important;
     width: 6rem;
 }
 
@@ -22,7 +22,8 @@
 }
 .containerCardsGlobalTracker2 {
     display: flex;
-    margin-top: 0;
-    width: 61.5rem;
-    justify-content: space-between;
+    margin-top: 3%;
+    width: 100%;
+    justify-content: flex-start;
+    gap: 1%;
 }

@@ -1,10 +1,13 @@
 .cardTotalGlobalTracker2 {
     display: flex;
     justify-content: space-around;
-    width: 12rem;
-    height: 5rem;
+    width: 18rem;
+    height: 6rem;
     background-color: white;
-    margin-top: 1%;
+    margin: 1%;
+    
+    
+    
 }
 .styleTotalGlobalTracker2 {
     color: #293f73 !important; 
@@ -21,7 +24,7 @@
     
 }
 .styleParagraphTotalGlobal {
-    font-size: 0.7rem;
+    font-size: 1rem;
     width: 7rem;
     color: #293f73;
     font-weight:lighter;

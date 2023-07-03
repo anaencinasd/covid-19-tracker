@@ -70,7 +70,7 @@ h6{
     padding-bottom: 2%;
 }
 .tracker_container_principal{
-    height: 100dvh;
+    
     display: flex;
     flex-direction: row;
     margin-left:3%;
