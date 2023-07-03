@@ -18,6 +18,7 @@
     src: url("/src/assets/fonts/glyphicons-halflings-regular.ttf");
 }
 
+
 * {
     margin: 0;
     padding: 0;
@@ -77,7 +78,7 @@ h6{
 }
 
 .dropdownCards{
-    width: max-content;
+    width: 100%;
     padding: 3%;
     display: flex;
     flex-direction: column;

@@ -1,9 +1,0 @@
-.containerMoleculeCardTracker {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    max-width: 28rem;
-    max-height: 30rem;
-    margin-left: 2%;
-    margin-top: 20%;  /*-----------quitar este margin al unir todas las moleculas*/
-}
