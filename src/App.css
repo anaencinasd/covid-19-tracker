@@ -74,6 +74,15 @@ h6{
     flex-direction: row;
 }
 
+.dropdownCards{
+    width: max-content;
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+    background-color: #f7f8fc;
+    
+}
+
 @media screen and (max-width: 500px) {
     h2 {
         font-size: 2rem;
