@@ -22,8 +22,14 @@
     color: #293f73;
     font-size: 1rem;
     margin: 2%;
-    ;
+    transition: background-color 0.3s ease;
+    
 }
+.countryContainer:hover {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    transform: scale(1.05);
+    background-color: #f1f1f1;
+  }
 .flagStyle{
     width: 50px;
     border: solid 0.5px grey;

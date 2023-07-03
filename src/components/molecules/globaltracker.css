@@ -1,9 +1,12 @@
 .trackerContainer{
     background-color: #fff;
-    width: 100%;
+    width: 90%;
     display: flex;
+    margin: 2%;
     flex-direction: column;
-    margin:2%;
     justify-items: center;
+    justify-content: center;
+
+    
     
 }
