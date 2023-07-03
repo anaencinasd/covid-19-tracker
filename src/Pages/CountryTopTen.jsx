@@ -5,12 +5,10 @@ import Top10CasesMolecule from "../components/molecules/top10CasesMolecule/Top10
 export default function CountryTopTen() {
   return (
     <>
-    <div>
-    <Navbar_tracker />
-    </div>  
-    <div className="tracker_container_principal">
-        <Tracker />
-        <Top10CasesMolecule />
+      <div className="tracker_container_principal">
+        <Navbar_tracker/>
+        <Tracker/>
+        <Top10CasesMolecule/>
       </div>
     </>
   );

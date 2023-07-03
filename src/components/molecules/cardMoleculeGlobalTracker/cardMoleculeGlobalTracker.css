@@ -1,0 +1,28 @@
+.help {
+    display: flex;
+    justify-content: space-around;
+    width: 12rem;
+    height: 5rem;
+    background-color: white;
+    margin-top: 1%;
+}
+.iconHelp {
+    margin: auto;
+    width: 50% !important;
+    height: 50% !important;
+}
+.paragraphHelp {
+    font-size: 0.7rem !important;
+    width: 6rem;
+}
+
+.paragraphAndNumber {
+    text-align: left;
+    margin: auto;
+}
+.containerCardsGlobalTracker2 {
+    display: flex;
+    margin-top: 0;
+    width: 61.5rem;
+    justify-content: space-between;
+}
