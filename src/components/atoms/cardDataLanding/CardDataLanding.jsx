@@ -15,7 +15,7 @@ export default function CardDataLanding() {
     const randomCountry =  countryData
     .sort(() => Math.random() > 0.5 ? 1 : -1)
     .slice(0,1)
-    //console.log(randomCountry)
+    console.log(randomCountry)
     
   
 

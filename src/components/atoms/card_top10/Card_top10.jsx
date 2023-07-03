@@ -17,9 +17,11 @@ export default function Card_top10(props) {
     const topTenCountries = countryData
     .sort((a,b) => b[props.type] - a[props.type])
     .slice(0,10)
-    //console.log(topTenCountries4Cases)
     
     
+    
+    
+
     return (
         <div className="cardContainerTop">
             <h3>{props.tittle_top10} </h3>
@@ -32,7 +34,7 @@ export default function Card_top10(props) {
                 <div>{element.country}</div>
                 <div>{element[props.type]}</div>
             </div>
-            
+
             ))} 
 
         </div>

@@ -2,6 +2,7 @@ import "./dropdown.css"
 import DynamicUrl from "../../../service/DynamicUrl"
 import CovidService from "../../../service/CovidService"
 import {useEffect, useState} from "react"
+import CardAtomTotalTracker from "../cardTotal/CardAtomTotalTracker"
 
 export default function Dropdown() {
     const[countries, setCountries] = useState([])
@@ -24,7 +25,9 @@ export default function Dropdown() {
                 </option>
               ))}
               </select>
-
+                <div>
+                  
+                </div>
             </div>
           );  
       

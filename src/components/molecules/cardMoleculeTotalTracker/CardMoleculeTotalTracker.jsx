@@ -6,17 +6,24 @@ import iconCovidGreenOpacity from "../../../assets/images/icons/covid-green-opac
 import iconCovidBlueOpacity from "../../../assets/images/icons/covid-blue-opacity.svg";
 import iconCovidOrangeOpacity from "../../../assets/images/icons/covid-orange-opacity.svg";
 import iconCovidRedarkOpacity from "../../../assets/images/icons/covid-redark-opacity.svg";
+import DropdownPrueba from "../../atoms/dropdownPrueba/DropdownPrueba";
+import {useEffect, useState} from "react"
+import DynamicUrl from "../../../service/DynamicUrl"
+import CovidService from "../../../service/CovidService"
 
 function CardMoleculeTotalTracker() {
+    
+    
+
 return (
     <div className="containerMoleculeCardTracker">
-        
-        <CardAtomTotalTracker textContentTitleTrack={"Total Case"} className="cardDefault" textTitleTrack2={"11111111"} imgCovidOpacity={iconCoviDefaultOpacity}/>
-        <CardAtomTotalTracker textContentTitleTrack={"Total Deaths"}  className="cardRed" textTitleTrack2={"22222222"} imgCovidOpacity={iconCovidRedOpacity}/>
-        <CardAtomTotalTracker textContentTitleTrack={"Total Recoveres"}  className="cardGreen" textTitleTrack2={"3333"} imgCovidOpacity={iconCovidGreenOpacity}/>
-        <CardAtomTotalTracker textContentTitleTrack={"Total Active"}  className="cardBlue" textTitleTrack2={"444444"} imgCovidOpacity={iconCovidBlueOpacity}/>
-        <CardAtomTotalTracker textContentTitleTrack={"New Cases"}  className="cardOrange" textTitleTrack2={"555555"} imgCovidOpacity={iconCovidOrangeOpacity}/>
-        <CardAtomTotalTracker textContentTitleTrack={"New Deaths"}  className="cardRedark" textTitleTrack2={"66666"} imgCovidOpacity={iconCovidRedarkOpacity}/>
+        <DropdownPrueba/>
+        <CardAtomTotalTracker textContentTitleTrack={"Total Case"} className="cardDefault" textTitleTrack2={country.country} imgCovidOpacity={iconCoviDefaultOpacity}/>
+        <CardAtomTotalTracker textContentTitleTrack={"Total Deaths"}  className="cardRed" textTitleTrack2={country.country} imgCovidOpacity={iconCovidRedOpacity}/>
+        <CardAtomTotalTracker textContentTitleTrack={"Total Recoveres"}  className="cardGreen" textTitleTrack2={country.country} imgCovidOpacity={iconCovidGreenOpacity}/>
+        <CardAtomTotalTracker textContentTitleTrack={"Total Active"}  className="cardBlue" textTitleTrack2={country.country} imgCovidOpacity={iconCovidBlueOpacity}/>
+        <CardAtomTotalTracker textContentTitleTrack={"New Cases"}  className="cardOrange" textTitleTrack2={country.country} imgCovidOpacity={iconCovidOrangeOpacity}/>
+        <CardAtomTotalTracker textContentTitleTrack={"New Deaths"}  className="cardRedark" textTitleTrack2={country.country} imgCovidOpacity={iconCovidRedarkOpacity}/>
     
     </div>
 )

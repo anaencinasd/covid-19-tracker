@@ -9,7 +9,7 @@ function Top10CasesMolecule() {
       <Card_top10 type="deaths" tittle_top10="Top Deaths"/>
       <Card_top10 type="recovered" tittle_top10="Top Recover"/>
       <Card_top10 type="active" tittle_top10="Top Active"/>
-      <Card_top10 type="todayDeaths" tittle_top10="Today Deaths"/>
+      <Card_top10 type="todayCases" tittle_top10="Today Cases"/>
       
       
     </div>
