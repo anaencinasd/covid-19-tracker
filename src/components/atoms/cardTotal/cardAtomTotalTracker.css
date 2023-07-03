@@ -1,7 +1,7 @@
 .containerCardTrack {
     display: flex;
     justify-content: space-between;
-    max-height: 7rem;
+    max-height: auto;
     max-width: 13rem;
     background-color: white;
     border-radius: 5px;
@@ -27,28 +27,29 @@ hr {
     width: 265%;
 }
 .styleTitleTrack2 {
-    font-size: 1em;
+    font-size: 1.75rem;
     padding: 10% 5%;
     text-align: left;
     margin: 0;
+    
 }
 .cardDefault {
-    color:blue
+    color: #3639ae;
 }
-.cardRed{
-    color: red;
+.cardRed {
+    color: #ff0000;
 }
 .cardGreen {
-    color: green;
+    color: #82c51b;
 }
 .cardblue {
-    color:dodgerblue;
+    color:#2c6dff;
 }
 .cardOrange {
-    color: orange;
+    color: #ff6a0a;
 }
 .cardRedark {
-    color: rgb(130, 46, 46);
+    color: #b7030f;
 }
 
 .containerImgTrack {

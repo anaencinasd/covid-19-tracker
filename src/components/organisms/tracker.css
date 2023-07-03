@@ -1,6 +1,9 @@
 .globalTrackerContainer{
     width: 25%;
     border-right: 1px solid rgba(0, 0, 0, 0.1);
-    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+    gap: 3%;
     padding: 3%;
+
 }

@@ -1,6 +1,6 @@
-import Tracker from "../components/organisms/Tracker"
-import Navbar_tracker from "../components/molecules/navbar_tracker/Navbar_tracker"
-import Top10CasesMolecule from "../components/molecules/top10CasesMolecule/Top10CasesMolecule"
+import Tracker from "../components/organisms/Tracker";
+import Navbar_tracker from "../components/molecules/navbar_tracker/Navbar_tracker";
+import Top10CasesMolecule from "../components/molecules/top10CasesMolecule/Top10CasesMolecule";
 
 export default function CountryTopTen() {
   return (
@@ -11,5 +11,5 @@ export default function CountryTopTen() {
         <Top10CasesMolecule/>
       </div>
     </>
-  )
+  );
 }

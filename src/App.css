@@ -72,6 +72,8 @@ h6{
     height: 100dvh;
     display: flex;
     flex-direction: row;
+    margin-left:3%;
+   
 }
 
 .dropdownCards{

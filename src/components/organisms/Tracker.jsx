@@ -9,7 +9,7 @@ export default function Tracker() {
     <div className="globalTrackerContainer">
         <GlobalTracker />
         
-        <Card_top10 type="active" tittle_top10="Top Active"/>
+        <Card_top10 type="active" tittle_top10="Top 10 countries (by active cases)"/>
     </div>
   )
 }

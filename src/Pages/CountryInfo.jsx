@@ -7,14 +7,14 @@ import CardMoleculeGlobalTracker from "../components/molecules/cardMoleculeGloba
 export default function CountryInfo() {
   return (
     <>
+      <Navbar_tracker />
       <div className="tracker_container_principal">
-        <Navbar_tracker/>
-        <Tracker/>
+        <Tracker />
         <div className="dropdownCards">
           <Dropdown /> 
           <CardMoleculeGlobalTracker/>
         </div>
       </div>
     </>
-  )
+  );
 }
