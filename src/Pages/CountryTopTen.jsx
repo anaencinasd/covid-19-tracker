@@ -9,8 +9,6 @@ export default function CountryTopTen() {
         <Navbar_tracker/>
         <Tracker/>
         <Top10CasesMolecule/>
-
-
       </div>
     </>
   )
