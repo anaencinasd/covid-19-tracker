@@ -9,9 +9,10 @@
 
 .countryContainer{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     border: solid 1px grey;
-    padding: 2%;
+    padding: 6%;
     border-radius: 10px;
     width: 100%;
     height: max-content;
@@ -19,8 +20,9 @@
     gap: 5%;
     justify-content: space-between;
     color: #293f73;
-    font-size: 1.25rem;
+    font-size: 1rem;
     margin: 2%;
+    ;
 }
 .flagStyle{
     width: 50px;

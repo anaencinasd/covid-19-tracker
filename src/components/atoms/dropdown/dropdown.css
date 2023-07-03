@@ -1,0 +1,35 @@
+.containerMoleculeCardTracker {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 28rem;
+    max-height: 30rem;
+    margin-left: 2%;
+    margin-top: 20%; 
+    gap: 3%; 
+   
+}
+
+.dropdown-selector{
+    border-bottom: 1px solid grey;
+    padding: 3%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 5%;
+}
+.selector{
+    width: 300px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  
+}
+
+.selector option {
+  background-color: #fff;
+
+}
+

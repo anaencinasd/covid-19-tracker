@@ -7,6 +7,8 @@
     border-radius: 5px;
     overflow: hidden;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;;
+    padding: 3%;
+    margin-top:3%
 }
 .containerTitleTrack {
     display: flex;
