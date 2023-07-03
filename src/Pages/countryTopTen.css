@@ -1,0 +1,8 @@
+@media screen and (max-width: 425px){
+    .tracker_container_principal {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        
+    }
+}

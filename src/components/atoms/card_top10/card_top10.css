@@ -28,4 +28,22 @@
     width: 50px;
     border: solid 0.5px grey;
 }
+@media screen and (max-width: 425px){
+    .countryContainer{
+ 
+        flex-wrap: nowrap;
+        flex-direction: row;
+        border: solid 1px grey;
+        padding: 2%;
+        border-radius: 10px;
+        width: 100%;
+        
+        align-items: center;
+        justify-content: space-between;
+        color: #293f73;
+        font-size: 0.75rem;
+        margin: 1%;
+        
+    }
+}
 

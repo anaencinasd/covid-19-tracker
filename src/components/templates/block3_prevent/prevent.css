@@ -19,7 +19,7 @@
     align-items:flex-start;
     padding:2% 2%;
 }
-@media screen and (max-width: 500px){
+@media screen and (max-width: 425px){
     .prevent-cards-container{
 
         flex-flow:column nowrap;

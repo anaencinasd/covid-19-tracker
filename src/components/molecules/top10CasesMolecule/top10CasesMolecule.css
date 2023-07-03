@@ -1,5 +1,19 @@
 .top10casesmolecule{
     display:flex;
+    flex-direction: row;
     
     width:100%
+}
+
+@media screen and (max-width: 425px){
+    .top10casesmolecule {
+        width:80%;
+        margin-left: 10%;
+        flex-direction: column;
+        justify-content:flex-start;
+        
+        
+
+        
+    }
 }

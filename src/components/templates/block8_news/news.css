@@ -29,7 +29,7 @@
     height: 75%;
     object-fit: cover
 }
-@media screen and (max-width: 500px){
+@media screen and (max-width: 425px){
 
     .newsContainer{
         width: 100%;
