@@ -9,15 +9,15 @@ import iconCovidGreenOpacity from "../../../assets/images/icons/covid-green-opac
 import iconCovidBlueOpacity from "../../../assets/images/icons/covid-blue-opacity.svg";
 import iconCovidOrangeOpacity from "../../../assets/images/icons/covid-orange-opacity.svg";
 import iconCovidRedarkOpacity from "../../../assets/images/icons/covid-redark-opacity.svg";
-import Map from "../map/Map";
+import Map2 from "../../atoms/map2/Map2";
 
 const Dropdown = () => {
   const { data } = useFetch("countries", DynamicUrl);
   const [selectedCountry, setSelectedCountry] = useState("");
   const [countryData, setCountryData] = useState(null);
   const [lastUpdated, setLastUpdated] = useState(null);
-  const [mapCenter, setMapCenter]=useState({lat:49.37369736843555, lng:-33.505843239266824})  
-  const [mapZoom, setMapZoom]=useState(2);
+  // const [mapCenter, setMapCenter]=useState({lat:49.37369736843555, lng:-33.505843239266824})  
+  // const [mapZoom, setMapZoom]=useState(2);
 
   useEffect(() => {
     if (selectedCountry) {
@@ -40,12 +40,12 @@ const Dropdown = () => {
     }
   }, [selectedCountry, data]);
 
-  useEffect(() => {
-    if (countryData) {
-      setMapCenter([countryData.countryInfo.lat, countryData.countryInfo.long]);
-      setMapZoom(4);
-    }
-  }, [countryData]);
+  // useEffect(() => {
+  //   if (countryData) {
+  //     setMapCenter([countryData.countryInfo.lat, countryData.countryInfo.long]);
+  //     setMapZoom(4);
+  //   }
+  // }, [countryData]);
 
 
   const handleSelectionChange = (event) => {
@@ -118,8 +118,9 @@ const Dropdown = () => {
               />
             </div>
           )}
-          <div className="map">
-            <Map center={mapCenter} zoom={mapZoom} />
+          <div className="map2">
+            {/* <Map2 center={mapCenter} zoom={mapZoom} /> */}
+            <Map2 />
           </div>
           </div>
         </div>
