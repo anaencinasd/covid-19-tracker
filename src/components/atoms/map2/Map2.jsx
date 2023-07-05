@@ -54,7 +54,7 @@ const getStyle = ({
   minValue,
   maxValue,
 }= CountryContext) => ({
-  fill: countryCode === "US" ? "blue" : "red",
+  fill: countryCode === "US" ? "blue" : "blue",
   fillOpacity: countryValue
     ? 0.1 + (1.5 * (countryValue - minValue)) / (maxValue - minValue)
     : 0,
